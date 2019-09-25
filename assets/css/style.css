@@ -234,7 +234,7 @@ img {
             }
 
             body {
-                position: relative;
+                position: fixed;
             }
 
             .name {
