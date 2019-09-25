@@ -172,6 +172,8 @@ img {
         height: 7vh;
     }
 
+
+
     .card-text {
         font-size: 10pt
     }
@@ -187,34 +189,37 @@ img {
     @media screen and (max-width: 768px) {
 
         nav {
-            display: table;
-            height: 8vh;
+            height: 6vh;
         }
 
+        .name {
+            width: 50%;
+        }
 
         .nav-link-container {
-            height: 10%;
-            padding: 10px;
-
+            height: 5%;
+            width: 60%;
+            padding-right: 30px;
         }
 
-        .empty-box {
-            padding-left: 10px;
+        .nav-link {
+            padding-left: 5px;
         }
-
 
         .card-header {
             height: 7vh;
+
         }
 
         .card-text {
-            font-size: 12pt
+            font-size: 10pt
         }
 
         .container {
-            width: 90%;
-            height: 90%;
-            background-color: green;
+            width: 83%;
+            height: 93%;
+            background-color: #1abc9c;
+
         }
 
         /* 640px */
@@ -223,31 +228,41 @@ img {
 
 
             nav {
+                height: 5vh;
                 display: table-cell;
-                height: 13vh;
+                width: 100%;
+            }
 
+            .name {
+                width: 660px;
+                height: 50px;
+                padding-left: 20px;
             }
 
             .nav-link-container {
-                height: 7vh;
-                padding-left: 150px;
+                height: 5vh;
+                width: 75%;
 
             }
 
             .empty-box {
-                padding-left: 22px;
+                height: 1vh;
+                background-color: #1abc9c;
+                color: #1abc9c;
+
             }
+
 
             .card-header {
                 height: 8vh;
             }
 
             .card-text {
-                font-size: 10pt
+                font-size: 9.5pt
             }
 
             .container {
-                width: 72%;
-                height: 90%;
-                background-color: yellow;
+                width: 92%;
+                height: 95%;
+                background-color: #7f8c8d;
             }
