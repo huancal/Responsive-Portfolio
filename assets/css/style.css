@@ -137,6 +137,7 @@ main {
 footer {
     height: 10vh;
     background-color: #7f8c8d;
+
 }
 
 h3 {
@@ -233,7 +234,7 @@ img {
                 width: 100%;
             }
 
-            body {
+            footer {
                 position: fixed;
             }
 
