@@ -240,3 +240,120 @@ img {
     max-height: 100%;
     max-width: 100%;
 }
+
+/* 980px */
+
+@media screen and (max-width: 980px) {
+
+    .nav-link-container {
+        height: 7vh;
+        margin-right: 5px;
+    }
+
+    .empty-box {
+        padding-left: 1px;
+    }
+
+    .card-header {
+        height: 7vh;
+    }
+
+    .card-text {
+        font-size: 10pt
+    }
+
+    .container {
+        width: 72%;
+        height: 90%;
+        background-color: #7f8c8d;
+    }
+
+
+    /* 768px */
+
+    @media screen and (max-width: 768px) {
+
+        nav {
+            height: 6vh;
+        }
+
+        .name {
+            width: 50%;
+        }
+
+        .nav-link-container {
+            height: 5%;
+            width: 60%;
+            padding-right: 30px;
+        }
+
+        .nav-link {
+            padding-left: 5px;
+        }
+
+        .card-header {
+            height: 7vh;
+
+        }
+
+        .card-text {
+            font-size: 10pt
+        }
+
+        .container {
+            width: 83%;
+            height: 93%;
+            background-color: #1abc9c;
+
+        }
+
+        /* 640px */
+
+        @media screen and (max-width: 640px) {
+
+
+            nav {
+                height: 5vh;
+                display: table-cell;
+                width: 100%;
+            }
+
+
+
+            .name {
+                width: 660px;
+                height: 50px;
+                padding-left: 10px;
+            }
+
+            .nav-link-container {
+                height: 5vh;
+                width: 75%;
+
+            }
+
+            .empty-box {
+                height: 1vh;
+                background-color: #1abc9c;
+                color: #1abc9c;
+
+            }
+
+
+            .card-header {
+                height: 8vh;
+            }
+
+            .card-text {
+                font-size: 9.5pt
+            }
+
+            .card-header-text {
+                padding-left: 200px;
+            }
+
+            .container {
+                width: 92%;
+                height: 95%;
+                background-color: #7f8c8d;
+            }

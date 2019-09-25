@@ -211,3 +211,162 @@ textarea {
     font-family: 'DM Sans', sans-serif;
 
 }
+
+/* 980px */
+
+@media screen and (max-width: 980px) {
+
+    .nav-link-container {
+        height: 7vh;
+        margin-right: 5px;
+    }
+
+    .empty-box {
+        padding-left: 1px;
+    }
+
+    .contact-box {
+        background-color: #7f8c8d;
+    }
+
+    .floating-name {
+        background-color: #7f8c8d;
+    }
+
+    .contact-box-header {
+        color: white;
+    }
+
+
+    .container {
+        width: 72%;
+        height: 90%;
+        background-color: #7f8c8d;
+    }
+
+    /* 768px */
+
+    @media screen and (max-width: 768px) {
+
+        nav {
+            height: 6vh;
+        }
+
+        .name {
+            width: 50%;
+        }
+
+        .nav-link-container {
+            height: 5%;
+            width: 60%;
+            padding-right: 30px;
+        }
+
+        .nav-link {
+            padding-left: 5px;
+        }
+
+        .contact-box {
+            background-color: #1abc9c;
+        }
+
+        .floating-name {
+            background-color: #1abc9c;
+        }
+
+        .contact-box-header {
+            color: white;
+        }
+
+        .submit-box {
+            background-color: #7f8c8d;
+        }
+
+        .container {
+            width: 83%;
+            height: 93%;
+            background-color: #1abc9c;
+        }
+
+        .floating-name,
+        .floating-email,
+        .floating-message {
+            color: rgb(73, 70, 70);
+        }
+
+
+
+
+        /* 640px */
+
+        @media screen and (max-width: 640px) {
+
+
+            nav {
+                height: 5vh;
+                display: table-cell;
+                width: 100%;
+            }
+
+
+
+            .name {
+                width: 660px;
+                height: 50px;
+                padding-left: 10px;
+            }
+
+            .nav-link-container {
+                height: 5vh;
+                width: 75%;
+
+            }
+
+            .empty-box {
+                height: 1vh;
+                background-color: #1abc9c;
+                color: #1abc9c;
+
+            }
+
+
+            .card-header {
+                height: 8vh;
+            }
+
+            .card-text {
+                font-size: 9.5pt
+            }
+
+            .card-header-text {
+                padding-left: 200px;
+            }
+
+            .container {
+                width: 92%;
+                height: 95%;
+                background-color: #7f8c8d;
+            }
+
+            .contact-box {
+                background-color: #7f8c8d;
+            }
+
+            .floating-name {
+                background-color: #7f8c8d;
+            }
+
+            .contact-box-header {
+                color: white;
+                padding-left: 230px;
+            }
+
+            .submit-box {
+                background-color: #1abc9c;
+            }
+
+            .floating-name,
+            .floating-email,
+            .floating-message {
+                color: white;
+            }

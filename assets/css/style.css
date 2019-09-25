@@ -234,14 +234,12 @@ img {
                 width: 100%;
             }
 
-            footer {
-                position: fixed;
-            }
+
 
             .name {
                 width: 660px;
                 height: 50px;
-                padding-left: 20px;
+                padding-left: 10px;
             }
 
             .nav-link-container {
@@ -264,6 +262,10 @@ img {
 
             .card-text {
                 font-size: 9.5pt
+            }
+
+            .card-header-text {
+                padding-left: 200px;
             }
 
             .container {
