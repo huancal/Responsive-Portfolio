@@ -154,3 +154,82 @@ img {
     margin-top: 20px;
     border-width: 3px;
 }
+
+@media screen and (max-width: 980px) {
+
+    .nav-link-container {
+        height: 7vh;
+        margin-left: 20px;
+    }
+
+    .empty-box {
+        padding-left: 22px;
+    }
+
+    .card-header {
+        height: 8vh;
+    }
+
+    .card-text {
+        font-size: 10pt
+    }
+
+    .container {
+        width: 72%;
+        height: 90%;
+        background-color: red;
+    }
+
+
+
+
+    @media screen and (max-width: 768px) {
+
+
+        .nav-link-container {
+            height: 7vh;
+            margin-left: 20px;
+        }
+
+        .empty-box {
+            padding-left: 22px;
+        }
+
+        .card-header {
+            height: 8vh;
+        }
+
+        .card-text {
+            font-size: 10pt
+        }
+
+        .container {
+            width: 80%;
+            height: 80%;
+            background-color: green;
+        }
+
+
+        @media screen and (max-width: 640px) {
+            .nav-link-container {
+                height: 7vh;
+                margin-left: 20px;
+            }
+
+            .empty-box {
+                padding-left: 22px;
+            }
+
+            .card-header {
+                height: 8vh;
+            }
+
+            .card-text {
+                font-size: 10pt
+            }
+
+            .container {
+                width: 72%;
+                height: 90%;
+                background-color: yellow;
+            }
