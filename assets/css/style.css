@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-color: #00b894;
+    border-width: 2px;
+}
+
+
+
+nav {
+    background-color: white;
+    display: table;
+    width: 100%;
+    border-bottom: solid;
+    border-color: #a4b0be;
+    border-width: 2px;
+}
+
+.empty-box {
+    background-color: white;
+    color: white;
+    padding-left: 72px;
+}
+
+
+.nav-link-container {
+    display: table;
+    float: right;
+    height: 10vh;
+    margin-right: 120px;
+    padding-right: 120px;
+
+}
+
+
+
+.nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: grey;
+    padding-right: 35px;
+    font-size: 8pt;
+    font-family: 'DM Sans', sans-serif;
+
+
+}
+
+a:hover {
+    transform: translate(-2px, -6px);
+    transition: all 0.15s ease-in;
+    text-shadow: 3px 3px 3px rgb(116, 113, 113);
+}
+
+
+
+
+.nav-link:not(:last-child) {
+    padding-right: 50px;
+}
+
+.name {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #1abc9c;
+    margin: 50px;
+    text-align: center;
+    font-size: 24pt;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+.name,
+.nav-link {
+    letter-spacing: 3px;
+}
+
+.container {
+    position: absolute;
+    height: 530px;
+    width: 900px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-color: #a4b0be;
+    border-width: 1px;
+}
+
+.card-header {
+    height: 25%;
+    display: table;
+    width: 100%;
+    border-bottom: solid;
+    border-width: 1pt;
+    border-color: #a4b0be;
+    background-color: white;
+    font-size: 13pt;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.card-header-text {
+    display: table-cell;
+    color: #1abc9c;
+    vertical-align: middle;
+    padding-left: 55px
+}
+
+.card-text {
+
+    line-height: 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12pt;
+    margin: 7px;
+    text-indent: 30px;
+
+}
+
+
+main {
+    height: 80vh;
+    position: relative;
+    background-color: #f1f2f6;
+}
+
+footer {
+    height: 10vh;
+    background-color: #7f8c8d;
+}
+
+h3 {
+    background-color: #1abc9c;
+    height: 2vh;
+}
+
+
+img {
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-width: 3px;
+}
