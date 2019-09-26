@@ -10,6 +10,7 @@ body {
     border-style: solid;
     border-color: #00b894;
     border-width: 2px;
+
 }
 
 
@@ -254,18 +255,26 @@ img {
         padding-left: 1px;
     }
 
-    .card-header {
-        height: 7vh;
+    .portfolio-box {
+        background-color: #7f8c8d;
     }
 
-    .card-text {
-        font-size: 10pt
+    .portfolio-box-text {
+        color: white;
     }
 
     .container {
         width: 72%;
-        height: 90%;
+        height: 80%;
         background-color: #7f8c8d;
+    }
+
+    .Trivia-box {
+        transform: translate(-180px, -105px)
+    }
+
+    .Widgets-box {
+        transform: translate(-180px, -95px);
     }
 
 
@@ -291,19 +300,31 @@ img {
             padding-left: 5px;
         }
 
-        .card-header {
-            height: 7vh;
+
+        .portfolio-box {
+            background-color: #7f8c8d;
+        }
+
+        .portfolio-box-text {
+            color: white;
+        }
+
+        .Trivia-box {
+            transform: translate(-180px, -125px);
+
 
         }
 
-        .card-text {
-            font-size: 10pt
+        .Widgets-box {
+            transform: translate(-180px, -110px);
         }
+
+
 
         .container {
             width: 83%;
             height: 93%;
-            background-color: #1abc9c;
+            background-color: #7f8c8d;
 
         }
 
@@ -317,8 +338,6 @@ img {
                 display: table-cell;
                 width: 100%;
             }
-
-
 
             .name {
                 width: 660px;
@@ -339,21 +358,27 @@ img {
 
             }
 
-
-            .card-header {
-                height: 8vh;
-            }
-
-            .card-text {
-                font-size: 9.5pt
-            }
-
-            .card-header-text {
-                padding-left: 200px;
-            }
-
             .container {
                 width: 92%;
                 height: 95%;
                 background-color: #7f8c8d;
+            }
+
+            .portfolio-box {
+                background-color: #7f8c8d;
+            }
+
+            .portfolio-box-text {
+                color: white;
+                padding-left: 220px;
+            }
+
+            .Trivia-box {
+                transform: translate(-180px, -125px);
+
+
+            }
+
+            .Widgets-box {
+                transform: translate(-180px, -110px);
             }
